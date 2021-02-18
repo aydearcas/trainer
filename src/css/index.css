@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css');
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.maincontainer {
+  width: 630px;
+  height: 520px;
+  background: gray;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 60px;
+  margin: auto;
+}
+
+.trainer {
+  position: absolute;
+  transform: translate(100px, 0);
+  transform: rotate(30deg);
+  width: 300px;
+}
+
+.hgradient {
+  width: 270px;
+  height: 370px;
+  background: cyan;
+  display: flex;
+}
+
+.shop {
+  width: 300px;
+  height: 430px;
+  background: #f3f3f3;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.starsandprice {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+}
+
+.product {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.product-description {
+  font-size: 16px;
+}
+
+.colorpick {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sizeamount {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.addtocart {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addbutton {
+  width: 200px;
+  height: 35px;
+  border: 1px solid transparent;
+  border-radius: 200px;
+  background: linear-gradient(to left, #0097ce, #00b3db, #0097ce);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.addwishlist {
+  color: #0097ce;
+  font-size: 12px;
+}
